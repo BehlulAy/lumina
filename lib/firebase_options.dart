@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:lumina/config/api_config.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -50,7 +51,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDVmsh7jJbutfAqZ5Af5-CuSljvcZ3vbcw',
+    apiKey: ApiConfig.firebaseAndroidApiKey,
     appId: '1:838480554835:android:b4418a06b38d7a4d0a4fa6',
     messagingSenderId: '838480554835',
     projectId: 'lumina-8b5cb',
@@ -58,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBthbQ_gTPwwUAdMuGnvmZHS4FEAFTw_cU',
+    apiKey: ApiConfig.firebaseIosApiKey,
     appId: '1:838480554835:ios:b01119d8b913dea20a4fa6',
     messagingSenderId: '838480554835',
     projectId: 'lumina-8b5cb',

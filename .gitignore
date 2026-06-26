@@ -47,3 +47,8 @@ app.*.map.json
 # API Configuration
 /lib/config/api_config.dart
 
+# Firebase Configurations
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+
+
