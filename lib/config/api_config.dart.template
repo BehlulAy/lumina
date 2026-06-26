@@ -1,0 +1,5 @@
+class ApiConfig {
+  /// Gemini API Key for AI chat and summarization features.
+  /// Replace this value with your actual Gemini API key from Google AI Studio.
+  static const String geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
+}
