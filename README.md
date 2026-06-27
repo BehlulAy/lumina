@@ -111,9 +111,3 @@ lib/
 │   └── upload_card.dart          # Hızlı Dosya Yükleme Paneli
 └── main.dart                     # Uygulama Başlangıç Noktası (Auth Durum Kontrolü)
 ```
-
----
-
-## 🔒 Güvenlik Notları
-* `lib/config/api_config.dart` dosyası hassas API anahtarınızı barındırdığı için `.gitignore` dosyasına eklenmiştir ve GitHub gibi halka açık platformlarda paylaşılmamalıdır.
-* Uygulamada kullanıcı şifreleri Firebase Authentication altyapısı kullanılarak güvenli şekilde işlenir.
